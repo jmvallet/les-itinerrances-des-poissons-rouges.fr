@@ -1,0 +1,34 @@
+.association{
+  @media (min-width: 800px) {
+    display: grid;
+    grid-template-columns: auto 30%;
+    grid-column-gap: 3em;
+  }
+}
+
+.masonry{
+  column-count: 1;
+  column-gap: 1.5em;
+
+  @media (min-width: 500px){
+    column-count: 2;
+    column-gap: 1.5em;
+  }
+  @media (min-width: 800px){
+    column-count: 3;
+    column-gap: 1.5em;
+  }
+  .masonry__item{
+    display: inline-block;
+    margin: 0 0 1.5em 0;
+    line-height: 0;
+    width: 100%;
+    img{
+      max-width: calc(100% - 10px);
+      box-shadow: 0 2px 4px 0 rgba(black, .1);
+      border-radius: 3px;
+      border: 5px solid #fff;
+      margin: 0;
+    }
+  }
+}

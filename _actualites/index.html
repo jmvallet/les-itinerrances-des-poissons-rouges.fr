@@ -1,0 +1,39 @@
+---
+layout: default
+title: Actualités - Les itinerrances des poissons rouges
+description: Actualités de l'association « Les itinerrances des poissons rouges »
+---
+
+<h2>Les actualités</h2>
+
+<ul class="actualites">
+  {% for page in site.actualites reversed %}
+    {% if page.is_event %}
+      <li>
+        <a class="actualites__item" href="{{ page.url | remove: "index.html" }}">
+          <div class="actualites__item__illustration">
+            <img src="{{page.url | remove: "/index.html"}}/{{page.event_illustration}}" />
+          </div>
+          <h3>
+            <span class="actualites__item__date">{{ page.event_date }}</span>
+            <span class="actualites__item__title">{{ page.event_title }}</span>
+          </h3>
+        </a>
+      </li>
+    {% endif %}
+
+    {% if page.is_link %}
+      <li>
+        <a class="actualites__item" href="{{ page.link_url }}">
+          <div class="actualites__item__illustration">
+            <img src="{{page.url}}/../{{page.link_illustration}}" />
+          </div>
+          <h3>
+            <span class="actualites__item__date">{{ page.link_date }}</span>
+            <span class="actualites__item__title">{{ page.link_title }}</span>
+          </h3>
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

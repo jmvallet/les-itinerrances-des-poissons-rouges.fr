@@ -1,0 +1,20 @@
+title: Les itinerrances des poissons rouges
+email: info@lesitinerrances.fr
+description: >-
+  Association ayant pour but de promouvoir l'accès à l'art contemporain
+  et plus globalement aux arts vivants sur Valence et ses alentours.
+baseurl: ""
+url: "http://www.les-itinerrances-des-poissons-rouges.fr"
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+
+collections:
+  festival:
+    output: true
+  actualites:
+    output: true

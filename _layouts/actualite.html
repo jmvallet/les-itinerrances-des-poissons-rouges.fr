@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="breadcrumb">
+  <a href="/actualites">Actualités</a> / <em>{{ page.event_date }} - {{ page.event_title }}</em>
+</div>
+
+<div class="actualite">
+  <h3>
+    <span class="actualite__date">{{ page.event_date }}</span>
+    <span class="actualite__title">{{ page.event_title }}</span>
+  </h3>
+  {{ content }}
+</div>

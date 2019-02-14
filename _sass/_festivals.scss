@@ -1,0 +1,68 @@
+.festivals{
+  padding: 0;
+  margin-bottom: 2em;
+  list-style: none;
+
+  display: grid;
+
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
+  grid-template-columns: repeat(auto-fill, minmax(220px,1fr));
+
+  li{
+    display: block;
+    text-align: center;
+    img{
+      max-width: 100%;
+      line-height: 0;
+      border: 2px solid #fff;
+      box-shadow: 0 2px 4px rgba(#000, .18);
+      border-radius: 2px;
+      margin-bottom: .3em;
+    }
+
+    h3{
+      font-weight: normal;
+      font-size: .9em;
+      span{
+        background-color: #fff;
+        color: #999;
+        padding: .2em .5em;
+        border-radius: 2em;
+        border: 1px solid rgba(#000, .125);
+        border-top: 1px solid rgba(#000, .15);
+      }
+    }
+    a{
+      text-decoration: none;
+      color: #aaa;
+      span{
+        color: $primary-color;
+        margin: 0 .3em;
+      }
+      &:hover,
+      &:focus{
+        span{
+          text-decoration: underline;
+        }
+      }
+      &::after {
+        content: "\2022";
+        font-size: 1em;
+      }
+      &:last-child::after{
+        content: "";
+      }
+    }
+  }
+}
+
+.festival{
+  text-align: center;
+  img{
+    max-width: 400px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(black, .1);
+    border-radius: 3px;
+  }
+}

@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'fengardoneue';
+  src: url('font/fengardoneue_regular.eot'); /* IE9 Compat Modes */
+  src: url('font/fengardoneue_regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('font/fengardoneue_regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('font/fengardoneue_regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('font/fengardoneue_regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'fengardoneue';
+  src: url('font/fengardoneue_black.eot'); /* IE9 Compat Modes */
+  src: url('font/fengardoneue_black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('font/fengardoneue_black.woff') format('woff'), /* Pretty Modern Browsers */
+       url('font/fengardoneue_black.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('font/fengardoneue_black.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: bold;
+}
