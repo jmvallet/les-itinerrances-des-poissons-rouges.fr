@@ -18,9 +18,9 @@ Lancer ensuite les commandes suivantes :
 
 ## Génération du site web statique
 
-Pour accéder en local au site web et faire des modifications, lancer la commande suivante :
+Pour accéder en local au site web (http://localhost:4000/) et faire des modifications, lancer la commande suivante :
 
-    bundle exec jekyll build -w
+    bundle exec jekyll serve -w
     
 Pour genérer le site web avant déploiement, lancer la commande suivante :
 
