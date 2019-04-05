@@ -23,4 +23,4 @@ Pour accéder en local au site web (http://localhost:4000/) et faire des modific
 
 Pour générer le site web avant déploiement, lancer la commande suivante :
 
-    bundle exec rake:build
+    bundle exec rake build
