@@ -17,7 +17,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="{{ "/assets/main.css?v6" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/main.css?v7" | relative_url }}">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
 
     <!-- Social share -->
@@ -34,7 +34,7 @@
       <nav>
         <ul>
           <li><a href="/" {%if page.url == '/' %}class="current"{% endif %}>L'association</a></li>
-          <li><a href="/festival" {%if page.url contains 'festival' %}class="current"{% endif %}>Le festival</a></li>
+          <li><a href="/festival" {%if page.url contains 'festival/' %}class="current"{% endif %}>Le festival</a></li>
           <li><a href="/actualites" {%if page.url contains 'actualites' %}class="current"{% endif %}>Les actualités</a></li>
         </ul>
       </nav>

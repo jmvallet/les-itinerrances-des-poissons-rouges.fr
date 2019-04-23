@@ -99,6 +99,11 @@ ul.actualites{
     img{
       max-width: 500px;
     }
+    &.solo--large{
+      img{
+        max-width: 100%;
+      }
+    }
   }
   .duo{
     display: grid;
