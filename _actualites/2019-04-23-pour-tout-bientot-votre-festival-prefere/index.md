@@ -10,7 +10,7 @@ social_image: promodis.jpg
 ---
 
 <h3>
-  10 <sup>ème</sup> festival itinerrance des poissons rouges du <strong>5 au 10 juin 2019</strong>
+  10<sup>ème</sup> festival itinerrance des poissons rouges du <strong>5 au 10 juin 2019</strong>
 </h3>
 
 <p>
